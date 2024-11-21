@@ -1,8 +1,14 @@
 #:schema node_modules/wrangler/config-schema.json
-name = "noisy-wind-1816"
+name = "zlibrary"
 main = "src/index.ts"
 compatibility_date = "2024-11-12"
 compatibility_flags = ["nodejs_compat"]
+account_id = ""
+
+[vars]
+PROXY_DOMAIN = "zlibrary.us.kg"
+PROXY_URL = "https://zlibrary.us.kg"
+ZLIBRARY_DOMAIN = "z-library.sk"
 
 # Workers Logs
 # Docs: https://developers.cloudflare.com/workers/observability/logs/workers-logs/
